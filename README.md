@@ -1,4 +1,4 @@
-# ![](ressources/logo.jpeg)
+# ![](ressources/logo-iut.png)
 
 # Bases de la programmation orientée objet 
 
