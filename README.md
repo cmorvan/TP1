@@ -20,7 +20,7 @@ Pour conserver vos réalisations et permettre à votre enseignant de suivre votr
 
 #### Création d'un compte Github
 
-En principe si vous voyez ce sujet c'est que vous avez déjà un compte github. 
+En principe vous avez déjà un compte github. Si ce n'est pas le cas, créez-vous un compte github **avec votre adresse de l'IUT** (l'adresse en `@etud.u-pem.fr`). De cette façon là vous pourrez bénéficier du système Github classroom.
 
 #### Prise en main de Git
 
