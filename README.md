@@ -75,7 +75,7 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 ~/tpPOO/tp1-VotreUsername$ git push origin master
 ```
 
-**Remarque importante** : Rappelez-vous qu'un dépôt contient uniquement les fichiers nécessaires pour qu'un collaborateur puisse reconstruire le projet dans son propre environnement, et surtout _rien de plus_. Donc aucune information personnelle, aucun résultat de compilation, aucune configuration de son propre environnement de travail, ...
+**Remarque importante** : Rappelez-vous qu'un dépôt contient uniquement les fichiers nécessaires pour qu'un collaborateur puisse reconstruire le projet dans son propre environnement, et surtout _rien de plus_. Donc aucune information personnelle, aucun résultat de compilation, aucune configuration de son propre environnement de travail. D'ailleurs, vous avez tout intérêt à éditer un fichier `.gitignore` à la racine de votre dépôt (fichier que vous commitez comme n'importe quel autre fichier utile à votre dépot). Ce fichier contient des motifs de fichiers qui doivent être ignorés par git.
 
 ### Exercice 1 : Insertion de votre capture de vos résultats dans *it-git*
 
