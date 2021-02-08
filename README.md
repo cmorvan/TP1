@@ -54,7 +54,11 @@ C'est une application multi-plateforme qui contient des défis pour l'apprentiss
   * Téléchargez le fichier **"Git-it-Linux-x64.zip"** (ou Mac, ou Windows) depuis ce site : https://github.com/jlord/git-it-electron/releases.
   * Décompressez-le dans votre répertoire principal (`$HOME` sur Linux) et lancez l'exécutable `Git-it`. Une interface en français plus ou moins bien traduite est également disponible... La première étape du tutoriel (sur la création d'un compte GitHub) peut être passée car vous l'avez déjà réalisée dans la précédente étape du TP.
 
-Une fois que vous aurez réalisé le tutoriel interactif, faites une capture décran de la partie en haut à gauche qui marque votre réussite aux défis successifs, comme ceci:![](ressources/defis_it-git.png). Cette capture sera utilisée un peu plus loin dans le TP 
+Une fois que vous aurez réalisé le tutoriel interactif, faites une capture décran de la partie en haut à gauche qui marque votre réussite aux défis successifs, comme ceci:
+
+![](ressources/defis_it-git.png)
+
+Cette capture sera utilisée un peu plus loin dans le TP 
 
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, pour cela vous n'utiliserez pas le bouton _fork_ classique de GitHub mais vous cliquerez sur **[CE LIEN](https://classroom.github.com/g/uovNVG2X)** !
