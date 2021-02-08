@@ -57,18 +57,18 @@ C'est une application multi-plateforme qui contient des défis pour l'apprentiss
 Une fois que vous aurez réalisé le tutoriel interactif, faites une capture décran de la 
 
 ### Création de votre fork du TP1
-Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, pour cela vous n'utiliserez pas le bouton _fork_ classique de GitHub mais vous cliquerez sur **[CE LIEN](https://classroom.github.com/a/u-MsinoI)** !
+Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, pour cela vous n'utiliserez pas le bouton _fork_ classique de GitHub mais vous cliquerez sur **[CE LIEN](https://classroom.github.com/g/uovNVG2X)** !
 
-GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ contenant le fork du __IUTInfoMontp-M2103/TP1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitHub en haut à gauche de la page (dans l'exemple le _username_ est _pvalicov_) :
+GitHub va vous créer un dépôt __eiffel-dutinfo1/tp1-votreUsername__ contenant le fork du __cmorvan/TP1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
-![](ressources/Fork_avec_classroom.png)
+Remarquez que ce fork privé sera automatiquement intégré dans l'organisation du cours : _eiffel-dutinfo1_. Ce qui implique que l'enseignant du module sera automatiquement admin de votre dépôt et pourra collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en interagissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
 
-Remarquez que ce fork privé sera automatiquement intégré dans l'organisation du cours : _IUTInfoMontp-M2103_. Ce qui implique que les enseignants du module seront automatiquement admins de votre dépôt et pourront collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en interagissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
+Précision, pour ce tp comme pour les suivants, vous serez autorisés à travailler en groupe, en équipes jusqu'à 2 personnes. Je souhaite au maximum que vous fonctionniez en binôme sur les tp de *conception orientée objets*.
 
-Vous allez cloner le fork GitHub '*IUTInfoMontp-M2103/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
+Vous allez cloner le fork GitHub '*eiffel-dutinf1/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
-Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche master) :
+Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche `master`) :
 ```sh
 ~/tpPOO/tp1-VotreUsername$ git add fichiers_que_vous_avez_modifié
 ~/tpPOO/tp1-VotreUsername$ git commit -m "Validation de l'exercice 1"
@@ -77,11 +77,19 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 **Remarque importante** : Rappelez-vous qu'un dépôt contient uniquement les fichiers nécessaires pour qu'un collaborateur puisse reconstruire le projet dans son propre environnement, et surtout _rien de plus_. Donc aucune information personnelle, aucun résultat de compilation, aucune configuration de son propre environnement de travail, ...
 
-### Un petit Salut le Monde qui va bien !
-#### Exercice 1
-Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Salut le monde"_.
+### Exercice 1 : Insertion de votre capture de vos résultats dans *it-git*
+
+1. Créez un dossier `it-git`
+1. Dans ce dossier copiez la capture que vous avez faite au terme du tutoriel *it-git*
+1. Appelez cette image `exercie1` avec la bonne extension selon le type d'image (`.png` ou `.jpg`)
+1. Ajouté le dossier `it-git` aux fichiers _staged_. 
+1. Poussez vos modifications.
+
+### Exercice 2 : Bonjour le monde
+Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Bonjour le monde"_.
 1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
 2. Versionnez l'intégralité de votre travail avec `git add .` + `git commit`.
 3. Faites un `git push` sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
 
 En règle générale une séparation entre le code source et le byte code est nécessaire pour une meilleure lisibilité de votre programme. Ce qui est généralement conseillé c'est d'avoir au moins deux répertoires à la racine de votre projet. Par exemple `src` + `bin` ou encore `src` + `target`. Pour les différentes options de compilation : https://docs.oracle.com/javase/8/docs/technotes/tools/unix/javac.html
+
