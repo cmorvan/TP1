@@ -1,6 +1,6 @@
 
 
-# Bases de la programmation orientée objet 
+# Bases de Conception orientée objet 
 
 ### Université Gustave Eiffel
 
@@ -96,4 +96,21 @@ Dans la méthode principale de la classe `HelloWorld` faites afficher le message
 3. Faites un `git push` sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
 
 En règle générale une séparation entre le code source et le byte code est nécessaire pour une meilleure lisibilité de votre programme. Ce qui est généralement conseillé c'est d'avoir au moins deux répertoires à la racine de votre projet. Par exemple `src` + `bin` ou encore `src` + `target`. Pour les différentes options de compilation : https://docs.oracle.com/javase/8/docs/technotes/tools/unix/javac.html
+
+### Exercice 3 : Historique de Git
+Créez un fichier texte `exercice3.txt` à  la racine de votre dépôt TP1. Vous noterez quelques éléments sur chacune des questions relatives à cet exercice.
+
+Pour aller un peu plus loin, vous pouvez à présent cloner localement le dépôt oficiel de Git : https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+
+**Attention** : ne clonez pas ce dépot dans votre dépot `TP1`, mais faites-le dans un autre dossier.
+
+1. Dans ce dépot, examinez l'historique avec la commande: `git log --color --oneline --graph` (dans le fichier `.gitconfig` dans votre dossier `home` vous pouvez créer un alias pour cette commande qui permet d'avoir une vision concise et graphique de l'historique.)
+1. Retrouvez le premier commit de git et placez-vous sur ce commit.
+1. Examiner les fichiers que vous y trouvez et en particulier le `README`.
+1. Créez une nouvelle branche `mon-git` à partir de cette situation. 
+1. Sur votre github crez un nouveau dépôt qui vous ajouterez en tant que serveur distant pour le dépôt actuel. 
+1. Poussez votre dépôt sur votre dépôt distant. 
+1. Allez voir votre dépôt sur github. Est-ce que tout est bien conforme ?
+1. Sur github, pouvez-vous voir la branche `master`. Qu'en pensez-vous ?
+
 
