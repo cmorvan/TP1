@@ -85,7 +85,7 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 1. Créez un dossier `git-it`
 1. Dans ce dossier copiez la capture que vous avez faite au terme du tutoriel *git-it*
-1. Appelez cette image `exercie1` avec la bonne extension selon le type d'image (`.png` ou `.jpg`)
+1. Appelez cette image `exercice1` avec la bonne extension selon le type d'image (`.png` ou `.jpg`)
 1. Ajouté le dossier `git-it` aux fichiers _staged_. 
 1. Poussez vos modifications.
 
