@@ -63,7 +63,8 @@ Cette capture sera utilisée un peu plus loin dans le TP
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, pour cela vous n'utiliserez pas le bouton _fork_ classique de GitHub mais vous cliquerez sur **[CE LIEN](https://classroom.github.com/g/uovNVG2X)** !
 
-GitHub va vous créer un dépôt __eiffel-dutinfo1/tp1-votreUsername__ contenant le fork du __cmorvan/TP1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
+GitHub va vous poser quelques questions pour vous identifier et vous demander de choisir une équipe. Pour ce TP (assignement) je vous demande de fonctionner par équipe de 2 (max). Choisissez un nom de binome du type : `gp-A-binomeX` où vous êtes dans le groupe A, dans le salon vocal `binomeX`.
+Ensuite git va créer un dépôt __eiffel-dutinfo1/tp1-votreBinome__ contenant le fork du __cmorvan/TP1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail.
 
 Remarquez que ce fork privé sera automatiquement intégré dans l'organisation du cours : _eiffel-dutinfo1_. Ce qui implique que l'enseignant du module sera automatiquement admin de votre dépôt et pourra collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en interagissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
 
