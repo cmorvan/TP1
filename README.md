@@ -81,12 +81,12 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 
 **Remarque importante** : Rappelez-vous qu'un dépôt contient uniquement les fichiers nécessaires pour qu'un collaborateur puisse reconstruire le projet dans son propre environnement, et surtout _rien de plus_. Donc aucune information personnelle, aucun résultat de compilation, aucune configuration de son propre environnement de travail. D'ailleurs, vous avez tout intérêt à éditer un fichier `.gitignore` à la racine de votre dépôt (fichier que vous commitez comme n'importe quel autre fichier utile à votre dépot). Ce fichier contient des motifs de fichiers qui doivent être ignorés par git.
 
-### Exercice 1 : Insertion de votre capture de vos résultats dans *it-git*
+### Exercice 1 : Insertion de la capture de vos résultats dans *git-it*
 
-1. Créez un dossier `it-git`
-1. Dans ce dossier copiez la capture que vous avez faite au terme du tutoriel *it-git*
+1. Créez un dossier `git-it`
+1. Dans ce dossier copiez la capture que vous avez faite au terme du tutoriel *git-it*
 1. Appelez cette image `exercie1` avec la bonne extension selon le type d'image (`.png` ou `.jpg`)
-1. Ajouté le dossier `it-git` aux fichiers _staged_. 
+1. Ajouté le dossier `git-it` aux fichiers _staged_. 
 1. Poussez vos modifications.
 
 ### Exercice 2 : Bonjour le monde
