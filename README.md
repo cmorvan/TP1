@@ -100,7 +100,7 @@ En règle générale une séparation entre le code source et le byte code est n�
 ### Exercice 3 : Historique de Git
 Créez un fichier texte `exercice3.txt` à  la racine de votre dépôt TP1. Vous noterez quelques éléments sur chacune des questions relatives à cet exercice.
 
-Pour aller un peu plus loin, vous pouvez à présent cloner localement le dépôt oficiel de Git : https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+Pour aller un peu plus loin, vous pouvez à présent cloner localement le dépôt oficiel de Git : https://git.kernel.org/pub/scm/git/git.git
 
 **Attention** : ne clonez pas ce dépot dans votre dépot `TP1`, mais faites-le dans un autre dossier.
 
